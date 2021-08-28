@@ -1,0 +1,26 @@
+GET http://localhost/API/Laravel/laravel/public/api/posts HTTP/1.1
+###
+
+POST http://localhost/API/Laravel/laravel/public/api/posts HTTP/1.1
+
+Content-Type: application/json
+{
+    "title" : "My second title",
+
+    "content" : "My second content"
+}
+###
+
+PUT http://localhost/API/Laravel/laravel/public/api/posts/4 HTTP/1.1
+
+Content-Type: application/json
+{
+    "title" : "My  title updated",
+
+    "content" : "My content updated"
+}
+###
+
+
+DELETE http://localhost/API/Laravel/laravel/public/api/posts/5 HTTP/1.1
+ 
